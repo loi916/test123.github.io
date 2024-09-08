@@ -71,17 +71,3 @@ function loadRandomPlaylist() {
  for (var j = 0; j < 100; j++) {
     console.log(getRandomVideoId());
 }
-
-
-
-
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J39PZFH3CB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-J39PZFH3CB');
-</script>
